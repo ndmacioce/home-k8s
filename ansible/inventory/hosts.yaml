@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        kube-0:
+          ansible_user: nick
+          ansible_host: 192.168.71.2
