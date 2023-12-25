@@ -84,6 +84,6 @@ spec:
     persistence:
       config:
         enabled: true
-        type: emptyDir
+        storageClassName: local-path
       add-ons:
         type: emptyDir
