@@ -81,9 +81,9 @@ spec:
         tls:
           - hosts:
               - *host
-    # persistence:
-    #   config:
-    #     enabled: true
-    #     type: emptyDir
-    #   add-ons:
-    #     type: emptyDir
+    persistence:
+      config:
+        enabled: true
+        type: emptyDir
+      add-ons:
+        type: emptyDir
