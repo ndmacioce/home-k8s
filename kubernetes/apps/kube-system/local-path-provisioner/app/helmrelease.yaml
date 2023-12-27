@@ -23,7 +23,7 @@ spec:
   uninstall:
     keepHistory: false
   values:
-        fullnameOverride: local-path-provisioner
+    fullnameOverride: local-path-provisioner
     controller:
       strategy: node
       externalProvisioner:
