@@ -38,6 +38,7 @@ jobs:
               --exclude-all-private \
               --exclude-mail \
               ./**/*.md || true
+
       - name: Print Output
         run: cat results.md
 
@@ -62,4 +63,4 @@ jobs:
         with:
           title: "${{ env.WORKFLOW_ISSUE_TITLE }}"
           issue-number: "${{ steps.find-issue.outputs.issue-number || '' }}"
-          content-filepath: /tmp/results.md
+          content-filepath: results.md
