@@ -40,7 +40,7 @@ jobs:
               ./**/*.md || true
 
       - name: Print Output
-        run: cat results.md
+        run: cat results.md && cp results.md /tmp/results.md
 
       - name: Find Link Checker Issue
         id: find-issue
@@ -63,4 +63,4 @@ jobs:
         with:
           title: "${{ env.WORKFLOW_ISSUE_TITLE }}"
           issue-number: "${{ steps.find-issue.outputs.issue-number || '' }}"
-          content-filepath: results.md
+          content-filepath: /tmp/results.md
