@@ -33,7 +33,7 @@ spec:
       defaultClass: false
     nodePathMap:
       - node: DEFAULT_PATH_FOR_NON_LISTED_NODES
-        paths: ["{{ bootstrap_local_path_provisioner_path | default('/var/lib/rancher/k3s/storage', true) }}"]
+        paths: ["{{ bootstrap_local_path_provisioner_path | default('/var/lib/rancher/k3s/local-hostpath', true) }}"]
     # NOTE: Do not enable Flux variable substitution on this HelmRelease
     configmap:
       setup: |-
