@@ -40,7 +40,7 @@ jobs:
               ./**/*.md || true
 
       - name: Print Output
-        run: cat results.md
+        run: cat results.md >> "$GITHUB_OUTPUT"
 
       - name: Find Link Checker Issue
         id: find-issue
