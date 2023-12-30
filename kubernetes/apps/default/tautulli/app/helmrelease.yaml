@@ -34,8 +34,8 @@ spec:
         containers:
           main:
             image:
-              repository: ghcr.io/onedr0p/tautulli
-              tag: 2.13.4@sha256:7682cdcf98dbdd236a21d1a7b7b380928dbd67283dce9a76398a7c1461b0f802
+              repository: ghcr.io/ndmacioce/tautulli
+              tag: 2.13.4@sha256:3d0986ab5e624174d29bab34835063319ad0693db9991f6e7e860f1112ba3c5f
             env:
               TZ: America/Denver
             probes:
