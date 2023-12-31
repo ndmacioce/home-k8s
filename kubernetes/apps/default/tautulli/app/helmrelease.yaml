@@ -87,7 +87,7 @@ spec:
     persistence:
       config:
         enabled: true
-        #storageClassName: local-hostpath
-        storageClassName: synostorage-smb
+        storageClassName: local-hostpath
+        #storageClassName: synostorage-smb
       add-ons:
         type: emptyDir
