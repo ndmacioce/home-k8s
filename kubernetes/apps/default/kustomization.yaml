@@ -5,4 +5,4 @@ resources:
   - ./namespace.yaml
   - ./hajimari/ks.yaml
   - ./discord-template-notifier/ks.yaml
-  #- ./tautulli/ks.yaml
+  - ./tautulli/ks.yaml
