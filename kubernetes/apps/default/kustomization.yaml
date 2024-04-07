@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - ./namespace.yaml
   - ./hajimari/ks.yaml
+  - ./librespeed/ks.yaml
   - ./discord-template-notifier/ks.yaml
   - ./overseerr/ks.yaml
   - ./tautulli/ks.yaml
