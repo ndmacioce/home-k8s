@@ -35,7 +35,7 @@ spec:
           main:
             image:
               repository: ghcr.io/ndmacioce/tautulli
-              tag: 2.13.4@sha256:6ab876b2f4196587c0d4baef8995809c3fc5bb643ae7309cd5509e3af9e88416
+              tag: 2.13.4@sha256:e31c72a2d6d1ecd4666ec33b701de88dedd33a0d026e9f8e6657686ba076b3e0
             env:
               TZ: America/Denver
             probes:
